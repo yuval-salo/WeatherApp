@@ -27,16 +27,6 @@ let weather ={
             document.getElementById(id).getElementsByClassName("temp")[0].innerText = temp +"°C";
             document.getElementById(id).getElementsByClassName("humidity")[0].innerText = "Humidity: " + humidity + "%";
             document.getElementById(id).getElementsByClassName("wind")[0].innerText = "Wind speed: " + speed + "km/h";
-           
-            //document.getElementById(id).getElementsByClassName("city")[0].innerText = name;
-           // document.getElementById(id).getElementsByClassName("icon")[0].src = "https://openweathermap.org/img/wn/"+ icon + "@2x.png";
-           
-            // document.querySelector( ".city").innerText =  name;
-         //   document.querySelector( ".icon").src = "https://openweathermap.org/img/wn/"+ icon + "@2x.png";
-           // document.querySelector( ".description").innerText = description;
-           // document.querySelector( ".temp").innerText = temp +"°C";
-           // document.querySelector( ".humidity").innerText = "Humidity: " + humidity + "%";
-           // document.querySelector(".wind").innerText = "Wind speed: " + speed + "km/h";
         },
         search: function()
         {
